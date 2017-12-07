@@ -1,7 +1,19 @@
 body {
 
+    font-family: Verdana, arial, times, serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.button {
+
 }
 
 h1 {
+    font-weight: bold;
+    font-family: Verdana, arial, times, serif;
+    font-size: 20px;
+    border-bottom: solid 1px #000;
+
 
 }
