@@ -3,22 +3,14 @@
 <script src="money.js"></script>
 </head>
 <body>
+
+<h1>USD to International Currency Converter</h1>
 <p>Click the button to convert your US Dollars into another currency.</p>
 
 <button onclick="currConvert()">Convert</button>
 <p id="convertedAmount"></p>
-<script>
-    function currConvert() {
-        var amount = prompt("Please enter the amount of USD you wish to convert. Don't include the $.", "10.00");
-        var currency = prompt("Please enter the currency you wish to convert into", "GBP");
-        var conversion = 0;
-        if (amount != null && currency != null) {
-            document.getElementById("convertedAmount").innerHTML =
-                "$ " + amount + " in USD is " + conversion + " in " + currency;
-        }
-    }
-</script>
-<h1>USD to International Currency Converter</h1>
+<script src = "conversion.js"></script>
+
 
 </body>
 </html>
