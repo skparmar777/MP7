@@ -10,7 +10,8 @@ function currConvert() {
             "$ " + amount + " in USD is " + conversion + " in " + currency;
     }
 }
-function currConversion(currency, amount) {
+function currConversion(curr, amt) {
+    var country = curr;
     var rates = {
         AED: 3.673014,
         AFN: 69.091,
@@ -181,6 +182,5 @@ function currConversion(currency, amount) {
         ZMW: 10.414584,
         ZWL: 322.355011
     };
-    var convert = rates.currency;
-    return convert * amount;
+    return rates.country * amt;
     }
