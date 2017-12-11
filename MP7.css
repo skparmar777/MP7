@@ -2,14 +2,21 @@ body {
     font-family: Verdana, arial, times, serif;
     font-weight: normal;
     font-size: 16px;
-    background-image: url();
+    background-image: url(currency%20map.png);
+    background-size: cover;
 }
 
-.button {
+button {
     font-size: 12px;
-    background-color: #ccc;
+    background-color: #fff;
+    margin-top: 300px;
+    margin-left: 750px;
+    text-align: center;
+}
 
-
+div {
+    background-color: #fff;
+    position: fixed;
 }
 
 h1 {
@@ -22,8 +29,8 @@ h1 {
     margin-left: 600px;
     padding: 10px;
     position:fixed;
+    opacity: 0.8;
     margin-top: 200px;
-
 }
 
 h2 {
@@ -35,9 +42,8 @@ h2 {
     font-family: Calibri, Arial Narrow, serif;
     letter-spacing: 1px;
     font-weight: normal;
-
-
 }
+
 h5 {
     font-size: 10px;
     font-family: arial, times, serif;
