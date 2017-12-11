@@ -182,5 +182,5 @@ function currConversion(curr, amt) {
         ZMW: 10.414584,
         ZWL: 322.355011
     };
-    return rates.country * amt;
-    }
+    return rates[country] * amt;
+}
