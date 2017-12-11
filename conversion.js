@@ -11,7 +11,6 @@ function currConvert() {
     }
 }
 function currConversion(curr, amt) {
-    var country = curr;
     var rates = {
         AED: 3.673014,
         AFN: 69.091,
@@ -182,5 +181,5 @@ function currConversion(curr, amt) {
         ZMW: 10.414584,
         ZWL: 322.355011
     };
-    return rates[country] * amt;
+    return rates[curr] * amt;
 }
