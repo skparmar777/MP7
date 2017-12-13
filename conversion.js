@@ -181,5 +181,5 @@ function currConversion(curr, amt) {
         ZMW: 10.414584,
         ZWL: 322.355011
     };
-    return rates[curr] * amt;
+    return parseFloat(parseFloat(rates[curr] * amt).toFixed(2));
 }
